@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Самый короткий путь</title>
+    <style>
+        body {
+            padding: 30px;
+        }
+
+        table {
+            border: 2px solid blue;
+        }
+
+        td {
+            padding: 7px;
+            border: 1px solid blue;
+        }
+
+        .btn {
+            padding: 7px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Самый короткий путь</h1>
+<hr>
+<br>
+
+<div id = "resultBox"></div>
+<br>
+<br>
+
+<form>
+    <span>Введите положение финишной позиции</span>
+    <br><br>
+    I: <input type = "text" id = "i_val">
+    <br><br>
+    J: <input type = "text" id = "j_val">
+    <br><br>
+    <input type = "button" class = "btn" onclick = "getWay()" value = "Получить маршрут">
+</form>
+
+<script src = "code.js"></script>
+
+</body>
+</html>
